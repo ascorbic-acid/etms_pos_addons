@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include etms_pos_addons *.css
+recursive-include etms_pos_addons *.csv
+recursive-include etms_pos_addons *.html
+recursive-include etms_pos_addons *.ico
+recursive-include etms_pos_addons *.js
+recursive-include etms_pos_addons *.json
+recursive-include etms_pos_addons *.md
+recursive-include etms_pos_addons *.png
+recursive-include etms_pos_addons *.py
+recursive-include etms_pos_addons *.svg
+recursive-include etms_pos_addons *.txt
+recursive-exclude etms_pos_addons *.pyc
